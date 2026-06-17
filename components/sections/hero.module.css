@@ -1,0 +1,116 @@
+.heroContainer {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center; 
+    padding: 0 5%; 
+    overflow: hidden;
+    margin-top: 60px; 
+}
+
+.backgroundWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+.backgroundImage {
+    object-fit: cover; 
+    object-position: center; /* Centra la imagen */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg, 
+        rgba(3, 42, 19, 0.8) 0%, 
+        rgba(3, 42, 19, 0.6) 25%, 
+        rgba(3, 42, 19, 0.4) 50%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+.heroContent {
+    max-width: 650px;
+    color: #ffffff;
+    z-index: 10; 
+}
+
+.heroContent h1 {
+    font-family: var(--font-poppins), sans-serif; 
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.acentoCajamarca {
+    font-family: var(--font-great-vibes), cursive;
+    color: #e4bc6a; 
+    font-size: 4.5rem; 
+    display: block; 
+    margin-top: -10px;
+}
+
+.heroContent p {
+    font-family: var(--font-poppins), sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+}
+
+.btnHero {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #e4bc6a; 
+    color: #032a13; 
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btnHero span {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.btnHero:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(228, 188, 106, 0.4);
+}
+
+.btnHero:hover span {
+    transform: translateX(5px); 
+}
+
+@media (max-width: 768px) {
+    .heroContent h1 {
+        font-size: 2.5rem;
+    }
+    .acentoCajamarca {
+        font-size: 3.5rem;
+    }
+    .heroContainer {
+        padding: 0 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .overlay {
+        background: rgba(3, 42, 19, 0.7); 
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "categorias": [
+        {
+            "id": "quesos-especiales",
+            "etiqueta": "Quesos Especiales",
+            "productos": [
+                {
+                    "id": "mantecoso",
+                    "nombre": "Queso Mantecoso",
+                    "descripcion": "Queso tradicional de consistencia cremosa, aroma suave y sabor mantecoso característico.",
+                    "imagen": "/Queso-Mantecoso.jpg",
+                    "proceso": [
+                        {
+                            "paso": 1,
+                            "titulo": "Ordeño",
+                            "desc": "Recolección de leche.",
+                            "icon": "GiMilkCarton"
+                        },
+                        {
+                            "paso": 2,
+                            "titulo": "Filtrado",
+                            "desc": "Eliminación de impurezas.",
+                            "icon": "FiFilter"
+                        },
+                        {
+                            "paso": 3,
+                            "titulo": "Cuajado",
+                            "desc": "Separación de sólidos.",
+                            "icon": "GiCheeseWedge"
+                        },
+                        {
+                            "paso": 4,
+                            "titulo": "Molienda",
+                            "desc": "Textura cremosa.",
+                            "icon": "GiManualMeatGrinder"
+                        },
+                        {
+                            "paso": 5,
+                            "titulo": "Prensado",
+                            "desc": "Moldeado tradicional.",
+                            "icon": "GiWeight"
+                        }
+                    ]
+                },
+                {
+                    "id": "suizo",
+                    "nombre": "Queso Suizo",
+                    "descripcion": "Queso madurado con ojos redondos, textura elástica y un característico sabor almendrado y dulce.",
+                    "imagen": "/queso-suizo.jpg",
+                    "proceso": [
+                        {
+                            "paso": 1,
+                            "titulo": "Ordeño",
+                            "desc": "Leche seleccionada.",
+                            "icon": "GiMilkCarton"
+                        },
+                        {
+                            "paso": 2,
+                            "titulo": "Pasteurizado",
+                            "desc": "Tratamiento térmico.",
+                            "icon": "FiThermometer"
+                        },
+                        {
+                            "paso": 3,
+                            "titulo": "Inoculación",
+                            "desc": "Adición de bacterias.",
+                            "icon": "RiMicroscopeLine"
+                        },
+                        {
+                            "paso": 4,
+                            "titulo": "Maduración",
+                            "desc": "Cámaras controladas.",
+                            "icon": "GiHourglass"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "dulces-cremas",
+            "etiqueta": "Dulces y Cremas",
+            "productos": [
+                {
+                    "id": "manjar-blanco",
+                    "nombre": "Manjar Blanco",
+                    "descripcion": "Manjar artesanal elaborado con leche fresca y cocido lentamente hasta lograr su textura untuosa.",
+                    "imagen": "/manjar.jpg",
+                    "proceso": [
+                        {
+                            "paso": 1,
+                            "titulo": "Recepción",
+                            "desc": "Leche fresca.",
+                            "icon": "GiMilkCarton"
+                        },
+                        {
+                            "paso": 2,
+                            "titulo": "Cocción",
+                            "desc": "Pailas de cobre.",
+                            "icon": "GiFireBowl"
+                        },
+                        {
+                            "paso": 3,
+                            "titulo": "Punto",
+                            "desc": "Control de dulzor.",
+                            "icon": "GiSugarCane"
+                        },
+                        {
+                            "paso": 4,
+                            "titulo": "Envasado",
+                            "desc": "Sellado al vacío.",
+                            "icon": "GiMasonJar"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
